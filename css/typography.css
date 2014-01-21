@@ -152,5 +152,16 @@ ol li:before {
 cite {
 	color: #979c9b;
 }
+
+sup, sub {
+	color: #979c9b;
+}
+
+ins {
+	text-decoration: none;
+	border-bottom: 0.1em solid;
+}
+
+	
 ​
 	
