@@ -165,6 +165,7 @@ ins {
 table {
   width: 100%;
   border: 1px solid #E9E6E6;
+  border-collapse: collapse;
 }
 
 th, td {
