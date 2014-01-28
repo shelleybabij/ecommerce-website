@@ -1,3 +1,23 @@
 @charset "UTF-8";
 /* CSS Document */
+.btn,
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	padding: 0.75em 1em;
+	background-color: #979c9b;
+	background-image: linear-gradient(to bottom, #979c9b, #282727);
+	border-radius: 6px;
+	box-shadow: 1px 1px 4px rgba(0 0 0 0.5);	
+	color: #fff;
+	font-weight: bold;	
+}
+
+.btn-alt,   /*make sure you add :link, :visited to this class too or else the top one will override*/
+.btn-alt:link,
+.btn-alt:visited {
+	background-color: #ECF4F4;
+	background-image: linear-gradient(to bottom, #C1DECO, #66BAC2);
+}
+
 
