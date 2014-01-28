@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
+
 .btn,
 .btn:link,
 .btn:visited {
@@ -13,11 +14,23 @@
 	font-weight: bold;	
 }
 
-.btn-alt,   /*make sure you add :link, :visited to this class too or else the top one will override*/
+.btn:hover,
+.btn:focus,
+.btn:active{
+	background-image: linear-gradient(to bottom, #282727, #979c9b);
+}
+
+.btn-alt,   
 .btn-alt:link,
 .btn-alt:visited {
-	background-color: #ECF4F4;
-	background-image: linear-gradient(to bottom, #C1DECO, #66BAC2);
+	background-color: #C1DCE0;
+	background-image: linear-gradient(to bottom, #C1DCE0, #66BAC2);
+}
+
+.btn-alt:hover,
+.btn-alt:focus,
+.btn-alt:active {
+	background-image: linear-gradient(to bottom, #66BAC2, #C1DCE0);
 }
 
 
