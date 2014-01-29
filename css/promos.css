@@ -16,3 +16,8 @@
 .h1-small {
 	text-align: center;
 }
+
+.btn-big {
+	float: none;
+	margin: 0;
+}
