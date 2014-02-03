@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header {
+	background-color: #ECF4F4;
+}
+
+h1 {
+	text-align: center;
+	left: 1rem;
+}
+
+nav,
+nav li,
+nav a,
+nav a:link,
+nav a:visited{
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	text-decoration: none;
+	font-family: arvo, serif;
+}
+
+ul li:before {
+	content: "";
+}
+
+ul li{
+	font-family: "Arvo" serif;
+	position: relative;
+	background-color: #C1DCE0;
+}
+
+a,
+a:link {
+	border-bottom: none;
+}
+
