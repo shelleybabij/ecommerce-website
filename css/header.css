@@ -3,11 +3,26 @@
 
 header {
 	background-color: #ECF4F4;
+	position: fixed;
+	width: 98%;
+	top: 0;
+	z-index: 100;
+	
 }
 
-h1 {
-	text-align: center;
-	left: 1rem;
+.logo {
+	max-width: 100px;
+	margin: .5rem;
+	top: -30px;
+	display: inline-block;
+}
+
+header h1{
+		display: inline-block;
+		position: relative;
+		top: -40px;
+		overflow: auto;
+		margin-bottom: 0;
 }
 
 nav,
@@ -15,12 +30,19 @@ nav li,
 nav a,
 nav a:link,
 nav a:visited{
-	display: inline-block;
-	text-decoration: none;
-	text-align: center;
+	width: 100%;
 	text-decoration: none;
 	font-family: arvo, serif;
+	margin: 0 auto;
+	padding: .5rem;
+	display: inline;
 }
+
+ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
 
 ul li:before {
 	content: "";
@@ -28,12 +50,22 @@ ul li:before {
 
 ul li{
 	font-family: "Arvo" serif;
-	position: relative;
-	background-color: #C1DCE0;
+   	position:relative;  
+	list-style:none;
 }
 
-a,
-a:link {
-	border-bottom: none;
-}
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
 
