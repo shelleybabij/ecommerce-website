@@ -5,6 +5,8 @@
 <title>Header</title>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
 <link href="../css/common.css" rel="stylesheet">
 <link href="../css/typography.css" rel="stylesheet">
 <link href="../css/list-group.css" rel="stylesheet">
@@ -14,28 +16,38 @@
 <link href="../css/buttons.css" rel="stylesheet">
 <link href="../css/forms.css" rel="stylesheet">
 <link href="../css/header.css" rel="stylesheet">
+<link href="../css/product-details.css" rel="stylesheet">
+<link href="../css/footer.css" rel="stylesheet">
 </head>
 
 <body>
 
-	<header>
+	<header class="grid">
 		
-		<img class="logo" src="../images/tie-logo.svg" alt="logo placeholder">
+		<div class="unit unit-s-1 unit-m-1 unit-l-1">
+			<img class="logo" src="../images/tie-logo.svg" alt="logo placeholder">
+			
+			<h1> Vintage Neckwear Co. </h1>
+		</div>
 		
-		<h1> Vintage Neckwear Co. </h1>
-		
-		<nav>
-			<ul>
-				<li class="mega"><a class= "fancy-link ease-all" href="#">Products</a></li>
-				<li class= "mega"><a class= "fancy-link ease-all" href="#">Home</a></li> 
-				<li class = "mega"><a class= "fancy-link ease-all" href="#">About</a></li>
-			</ul>
-		</nav>
+		<div class="unit unit-s-1 unit-m-1 unit-l-1">
+			<nav>
+				<ul>
+					<li class="mega"><a class= "fancy-link ease-all" href="#">Products</a></li>
+					<li class="mega"><a class= "fancy-link ease-all" href="#">Home</a></li> 
+					<li class="mega"><a class= "fancy-link ease-all" href="#">About</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="unit unit-s-1 unit-m-1 unit-l-1">
 			<form class="header-search">
 				<span><input type="text" class="search rounded" placeholder="Search..."></span>
 				<a class="btn btn-alt btn-search" href="#">Search</a>
 			</form>
+		</div>
 	</header>
+
+
 	
 	<img class="img-flex" src="../images/ties.jpg" alt="ties">
 	
