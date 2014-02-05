@@ -15,7 +15,8 @@ header {
 	top: 0;
 	z-index: 100;
 	margin-bottom: 2rem;
-	border-radius: 8px;	
+	border-radius: 8px;
+	padding-left: .25rem;	
 }
 
 .logo {
@@ -58,7 +59,6 @@ nav a:visited{
 	font-family: arvo, serif;
 	margin: 0 auto;
 	padding: .5rem;
-	display: inline;
 }
 
 ul {
@@ -78,9 +78,39 @@ ul li{
 }
 
 .header-search {
-	float: right;
+	float: left;
 	top: -20px;
 }
+
+@media screen and (min-width: 36.125em) {
+
+header h1 {
+	text-align: center;
+	top: -40px;
+}
+
+nav,
+nav li,
+nav a,
+nav a:link,
+nav a:visited {
+	display: inline;
+	top: -20px;
+}
+
+.header-search {
+	margin-top: 2rem;
+	
+}
+
+@media screen and (min-width: 78.5em) {
+	
+.header-search {
+	margin-top: 0rem;
+	float: right;
+}
+}
+
 
 
 
