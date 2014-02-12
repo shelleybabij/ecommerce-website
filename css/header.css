@@ -25,17 +25,14 @@ header {
 	margin-bottom: 0;
 	display: inline-block;
 	overflow: auto;
+	vertical-align: top;
+	
 }
 
 header h1{
 		display: inline-block;
+		vertical-align: top;
 }
-		/*position: relative;
-		/* top: -40px; */
-		/*overflow: auto;
-		margin-bottom: 0;
-}*/
-
 
 .fancy-link,
 .fancy-link:link,
@@ -93,6 +90,10 @@ nav a:link,
 nav a:visited {
 	display: inline;
 	
+}
+
+header h1{
+	margin-top: 3.25rem;
 }
 
 @media screen and (min-width: 78.5em) {
