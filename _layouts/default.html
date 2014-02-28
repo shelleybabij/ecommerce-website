@@ -35,9 +35,9 @@
 		<div class="unit unit-s-1 unit-m-1 unit-l-1">
 			<nav>
 				<ul>
-					<li class="mega"><a class= "fancy-link ease-all" href="#">Products</a></li>
-					<li class="mega"><a class= "fancy-link ease-all" href="#">Home</a></li> 
-					<li class="mega"><a class= "fancy-link ease-all" href="#">About</a></li>
+					<li class="mega"><a class= "fancy-link ease-all" href="{{site.baseurl}}/products/">Products</a></li>
+					<li class="mega"><a class= "fancy-link ease-all" href="{{site.baseurl}}/">Home</a></li> 
+					<li class="mega"><a class= "fancy-link ease-all" href="{{site.baseurl}}/about/">About</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -51,29 +51,34 @@
 	
 {{content}}
 
-	<footer class="footer pad-t">
-	  <div class="grid">
-		<div class="unit unit-s-1 unit-m-1 unit-l-1-2 gutter-1-2">
-		  <p class="footer-copyright"><small>© 2014 Dinos ’R’ Us</small></p>
+	<footer class="grid">
+	<div class="unit unit-s-1 unit-m-1 unit-l-1">
+		<p class="milli"> Copywright © Vintage Neckwear Co. 2014 <a class= "fancy-link ease-all" href="#">Terms of Service</a></p> 
+	</div>
+	
+	<div class="unit unit-s-1 unit-m-1 unit-l-1">
+		<ul class= "social">
+					<li>
+						<a class="ease-all" href="#">
+							<i class="fa fa-facebook"></i>
+							<span class="hide-text">Facebook</span>
+						</a>
+					</li>
+			<ul class= "social">
+					<li>
+						<a class="ease-all" href="#">
+							<i class="fa fa-twitter"></i>
+							<span class="hide-text">Twitter</span>
+						</a>
+					</li>
+				</ul>	
+					<ul class= "social">
+					<li>
+						<a class="ease-all" href="#">
+							<i class="fa fa-google-plus"></i>
+							<span class="hide-text">Google Plus</span>
+						</a>
+					</li>
+				</ul>
 		</div>
-		<div class="unit unit-s-1 unit-m-1 unit-l-1-2 gutter-1-2">
-		  <ul class="list-group footer-links">
-			<li class="list-group-item list-group-item-inline">
-			  <a href="#" class="icon-link icon i-16 i-facebook ir">Facebook</a>
-			</li>
-			<li class="list-group-item list-group-item-inline">
-			  <a href="#" class="icon-link icon i-16 i-twitter ir">Twitter</a>
-			</li>
-			<li class="list-group-item list-group-item-inline">
-			  <a href="#" class="icon-link icon i-16 i-googleplus ir">Google+</a>
-			</li>
-			<li class="list-group-item list-group-item-inline">
-			  <a href="#" class="icon-link icon i-16 i-pinterest ir">Pinterest</a>
-			</li>
-		  </ul>
-		</div>
-	  </div>
 	</footer>
-
-</body>
-</html>
