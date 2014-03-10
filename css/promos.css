@@ -1,24 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
-.product-small {
-	margin-bottom: 1rem;
-}
-
-.title-small {
-	line-height: 0.25;
-}
-
-.btn-small {
-	float: none;
-}
-
-.h1-small {
-	text-align: center;
-}
-
-.btn-big {
-	float: none;
-	margin: 0;
+.promo-small{
+	background-color: #C7C0AE;
+	border-radius: 10px;
 }
