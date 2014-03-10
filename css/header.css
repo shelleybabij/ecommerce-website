@@ -110,8 +110,9 @@ header h1{
 }
 
 .banner {
-	background: #6E9D1B url("../images/banner.jpg") no-repeat center center;
+	background: #ECF4F4 url("../images/banner-1.jpg") no-repeat center center;
 	background-size: cover;
+	border-radius: 10px;
 	padding: 5em 1em 1em;
 	text-align: center;
 }
