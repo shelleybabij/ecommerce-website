@@ -2,10 +2,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Vintage Neckwear Co.</title>
+<title>{{page.title}} · Vintage Neckwear Co.</title>
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="{{page.meta}}">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -22,6 +23,7 @@
 <link href="{{.site.baseurl}}/css/footer.css"rel="stylesheet">
 <link href="{{.site.baseurl}}/css/product.css"rel="stylesheet">
 <link href="{{.site.baseurl}}/css/product-list-item.css"rel="stylesheet">
+<link href="{{.site.baseurl}}/css/promos.css"rel="stylesheet">
 </head>
 <body>
 	<header class="grid">
@@ -35,9 +37,9 @@
 		<div class="unit unit-s-1 unit-m-1 unit-l-1">
 			<nav>
 				<ul>
-					<li class="mega"><a class= "fancy-link ease-all" href="{{site.baseurl}}/products/">Products</a></li>
-					<li class="mega"><a class= "fancy-link ease-all" href="{{site.baseurl}}/">Home</a></li> 
-					<li class="mega"><a class= "fancy-link ease-all" href="{{site.baseurl}}/about/">About</a></li>
+					<li class="mega"><a class= "{% if page.url contains 'products' %}current{% endif %}fancy-link ease-all" href="{{site.baseurl}}/products/">Products</a></li>
+					<li class="mega"><a class= "{% if page.url == '/' %}current{% endif %}fancy-link ease-all" href="{{site.baseurl}}/">Home</a></li> 
+					<li class="mega"><a class= "{% if page.url == '/about/' %}current{% endif %}fancy-link ease-all" href="{{site.baseurl}}/about/">About</a></li>
 				</ul>
 			</nav>
 		</div>

@@ -105,6 +105,21 @@ header h1{
 }
 }
 
+.current{
+	color: #979c9b;
+}
+
+.banner {
+	background: #6E9D1B url("../images/banner.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 5em 1em 1em;
+	text-align: center;
+}
+
+.banner h2 {
+	color: #fff;
+}
+
 
 
 
