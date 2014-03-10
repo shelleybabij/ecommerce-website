@@ -14,7 +14,6 @@ header {
 	width: 100%;
 	top: 0;
 	z-index: 100;
-	margin-bottom: 2rem;
 	border-radius: 8px;
 	padding-left: .25rem;	
 }
@@ -78,7 +77,6 @@ ul li{
 
 .header-search {
 	float: left;
-	top: -20px;
 }
 
 @media screen and (min-width: 36.125em) {
@@ -112,7 +110,6 @@ header h1{
 .banner {
 	background: #ECF4F4 url("../images/banner-1.jpg") no-repeat center center;
 	background-size: cover;
-	border-radius: 10px;
 	padding: 5em 1em 1em;
 	text-align: center;
 }
