@@ -19,13 +19,12 @@ header {
 }
 
 .logo {
-	max-width: 100px;
+	max-width: 80px;
 	margin-top: .75rem;
 	margin-bottom: 0;
 	display: inline-block;
 	overflow: auto;
 	vertical-align: top;
-	
 }
 
 header h1{
@@ -48,14 +47,16 @@ header h1{
 	border-bottom: 5px solid #282727;
 }
 
-nav,
+nav {
+	width: 100%;
+	font-family: arvo, serif;
+	margin: 0 auto;
+}
+
 nav li,
 nav a,
 nav a:link,
 nav a:visited{
-	width: 100%;
-	font-family: arvo, serif;
-	margin: 0 auto;
 	padding: .5rem;
 }
 
@@ -92,6 +93,8 @@ nav a:visited {
 
 header h1{
 	margin-top: 3.25rem;
+}
+
 }
 
 @media screen and (min-width: 78.5em) {
