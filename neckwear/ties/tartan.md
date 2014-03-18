@@ -1,8 +1,7 @@
 ---
 layout: neckwear
 category: neckwear
-name: Tartan tie
-folder: ties
+type: ties
 style: Formal
 fabric: Silk
 image: ties/tie.jpg

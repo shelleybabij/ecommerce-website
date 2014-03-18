@@ -1,0 +1,11 @@
+<ul>
+	{% for neckwear in site.pages %}
+		{% if neckwear.type == include.type %}
+		<li>
+		<a href="{{site.baseurl}}{{neckwear.url}}">
+			{{neckwear.title}}
+		</a>
+		</li>
+	{% endif %}
+	{% endfor %}	
+</ul>

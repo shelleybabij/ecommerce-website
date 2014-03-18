@@ -2,7 +2,7 @@
 layout: neckwear
 category: neckwear
 name: Peacock Scarf 
-folder: scarves
+type: scarves
 style: Formal
 fabric: Cotton
 image: scarves/scarf-2.jpg

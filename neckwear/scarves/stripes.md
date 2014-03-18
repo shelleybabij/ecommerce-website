@@ -2,7 +2,7 @@
 layout: neckwear
 category: neckwear
 name: Stripes 
-folder: scarves
+type: scarves
 style: Casual
 fabric: Cotton
 image: scarves/scarf-5.jpg

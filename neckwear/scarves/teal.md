@@ -2,7 +2,7 @@
 layout: neckwear
 category: neckwear
 name: Teal Scarf
-folder: scarves
+type: scarves
 style: Casual
 fabric: Cotton
 image: scarves/scarf-4.jpg

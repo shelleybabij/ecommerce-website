@@ -2,7 +2,7 @@
 layout: neckwear
 category: neckwear
 name: Polka Dot Bowtie
-folder: ties
+type: ties
 style: Formal
 fabric: Silk
 image: ties/tie-2.jpg

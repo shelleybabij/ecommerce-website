@@ -2,7 +2,7 @@
 layout: neckwear
 category: neckwear
 name: Horseshoe 
-folder: scarves
+type: scarves
 style: Casual
 fabric: Cotton
 image: scarves/scarf-3.jpg
