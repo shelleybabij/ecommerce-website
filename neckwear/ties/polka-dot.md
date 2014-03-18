@@ -5,7 +5,7 @@ name: Polka Dot Bowtie
 type: ties
 style: Formal
 fabric: Silk
-image: ties/tie-2.jpg
+image: neckwear/tie-2.jpg
 ---
 
 This *Polka-dot bowtie* will spruce up your look at the office or for a night out on the town.

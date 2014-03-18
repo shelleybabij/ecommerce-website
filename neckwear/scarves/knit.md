@@ -5,7 +5,7 @@ name: Circle Scarf
 type: scarves
 style: Formal
 fabric: Wool
-image: scarves/scarf.jpg
+image: neckwear/scarf.jpg
 ---
 
 This *Brown Knit Scarf* gives that handmade feel.

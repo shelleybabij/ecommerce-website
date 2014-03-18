@@ -5,7 +5,7 @@ name: Horseshoe
 type: scarves
 style: Casual
 fabric: Cotton
-image: scarves/scarf-3.jpg
+image: neckwear/scarf-3.jpg
 ---
 
 This is an amazing *Horseshoe Patterned Scarf* 

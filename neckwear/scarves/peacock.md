@@ -5,7 +5,7 @@ name: Peacock Scarf
 type: scarves
 style: Formal
 fabric: Cotton
-image: scarves/scarf-2.jpg
+image: neckwear/scarf-2.jpg
 ---
 
 This is an amazing *Peacock Patterned Scarf* 

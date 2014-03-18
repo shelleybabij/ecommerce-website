@@ -4,7 +4,7 @@ category: neckwear
 type: ties
 style: Formal
 fabric: Silk
-image: ties/tie.jpg
+image: neckwear/tie.jpg
 ---
 
 This *Tartan tie* is a great punch of colour to add interest to your outfit

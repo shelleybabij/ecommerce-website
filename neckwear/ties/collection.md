@@ -5,7 +5,7 @@ name: Bowtie Collection
 type: ties
 style: Formal
 fabric: Silk
-image: ties/ties.jpg
+image: neckwear/ties.jpg
 ---
 
 This *formal bowtie collection* will guarantee you're dressed in style no matter the occaision.

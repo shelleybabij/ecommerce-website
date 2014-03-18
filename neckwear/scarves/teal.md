@@ -5,7 +5,7 @@ name: Teal Scarf
 type: scarves
 style: Casual
 fabric: Cotton
-image: scarves/scarf-4.jpg
+image: neckwear/scarf-4.jpg
 ---
 
 This *Teal Scarf* is a great punch of colour.

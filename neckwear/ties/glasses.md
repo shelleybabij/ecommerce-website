@@ -5,7 +5,7 @@ name: Glasses Bowtie
 type: ties
 style: Business Casual
 fabric: Cotton blend
-image: ties/bowtie-2.jpg
+image: neckwear/bowtie-2.jpg
 ---
 
 This *green glasses bowtie* will set you a part at your next function.

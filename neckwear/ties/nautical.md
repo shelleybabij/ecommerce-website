@@ -5,7 +5,7 @@ name: Nautical Bowtie
 type: ties
 style: Formal
 fabric: Cotton blend
-image: ties/bowtie-3.jpg
+image: neckwear/bowtie-3.jpg
 ---
 
 This *Nautical Bowtie* will add style to your cruise.

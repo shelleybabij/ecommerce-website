@@ -5,7 +5,7 @@ name: Stripes
 type: scarves
 style: Casual
 fabric: Cotton
-image: scarves/scarf-5.jpg
+image: neckwear/scarf-5.jpg
 ---
 
 *Stripes* are all the rage this season.

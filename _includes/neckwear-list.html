@@ -2,6 +2,7 @@
 	{% for neckwear in site.pages %}
 		{% if neckwear.type == include.type %}
 		<li>
+		<img src="{{site.baseurl}}/neckwear/{{neckwear.image}}" alt="Photo of {{neckwear.title}}">
 		<a href="{{site.baseurl}}{{neckwear.url}}">
 			{{neckwear.title}}
 		</a>
