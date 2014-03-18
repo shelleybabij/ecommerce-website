@@ -1,11 +1,11 @@
 ---
 layout: neckwear
 category: neckwear
-name: Horseshoe 
+title: Horseshoe 
 type: scarves
 style: Casual
 fabric: Cotton
-image: neckwear/scarf-3.jpg
+image: scarf-3.jpg
 ---
 
 This is an amazing *Horseshoe Patterned Scarf* 
@@ -16,8 +16,6 @@ This scarf is [hand died](http://en.wikipedia.org/wiki/Custom_fabric_dyeing)
 
 - Trendy pattern
 - Hypoallergecic fabric
-
-![Horseshoe] (http://static5.shop.indiatimes.com/images/products/additional/original/B956147_View_1/fashion/accessories/promotional-club-ochre-printed-women-scarf-b956147.jpg)
 
 
 

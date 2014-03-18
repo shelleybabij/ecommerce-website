@@ -1,11 +1,11 @@
 ---
 layout: neckwear
 category: neckwear
-name: Teal Scarf
+title: Teal Scarf
 type: scarves
 style: Casual
 fabric: Cotton
-image: neckwear/scarf-4.jpg
+image: scarf-4.jpg
 ---
 
 This *Teal Scarf* is a great punch of colour.
@@ -17,5 +17,5 @@ This scarf is [hand died](http://en.wikipedia.org/wiki/Custom_fabric_dyeing)
 - Unique colour pallette
 - Stylish
 
-![Teal Scarf] (http://shop.stelladot.com/style/media/catalog/product/s/c/sc110_turqscarf.jpg)
+
 

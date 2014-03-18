@@ -1,11 +1,11 @@
 ---
 layout: neckwear
 category: neckwear
-name: Peacock Scarf 
+title: Peacock Scarf 
 type: scarves
 style: Formal
 fabric: Cotton
-image: neckwear/scarf-2.jpg
+image: scarf-2.jpg
 ---
 
 This is an amazing *Peacock Patterned Scarf* 
@@ -17,7 +17,6 @@ This scarf is [hand died](http://en.wikipedia.org/wiki/Custom_fabric_dyeing)
 - Trendy pattern
 - Hypoallergecic fabric
 
-![Peacock Pattern] (http://productshots2.modcloth.net/productshots/0106/2748/d18323ce53bacc8241b746f42fcd2b2f.jpg?1334179063)
 
 
 

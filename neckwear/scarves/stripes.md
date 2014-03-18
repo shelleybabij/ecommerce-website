@@ -1,11 +1,11 @@
 ---
 layout: neckwear
 category: neckwear
-name: Stripes 
+title: Stripes 
 type: scarves
 style: Casual
 fabric: Cotton
-image: neckwear/scarf-5.jpg
+image: scarf-5.jpg
 ---
 
 *Stripes* are all the rage this season.
@@ -17,6 +17,5 @@ This scarf is [hand died](http://en.wikipedia.org/wiki/Custom_fabric_dyeing)
 - Worn look
 - Antique fabric
 
-![Stripes] (https://www.wolfandbadger.com/media/images/productimage-picture-dashwood-stripe-scarf-1073.jpg)
 
 
