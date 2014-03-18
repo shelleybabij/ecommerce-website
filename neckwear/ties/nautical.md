@@ -2,6 +2,7 @@
 layout: neckwear
 category: neckwear
 title: Nautical Bowtie
+folder: ties
 type: ties
 style: Formal
 fabric: Cotton blend

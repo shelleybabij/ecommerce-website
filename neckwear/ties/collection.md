@@ -2,6 +2,7 @@
 layout: neckwear
 category: neckwear
 title: Bowtie Collection
+folder: ties
 type: ties
 style: Formal
 fabric: Silk

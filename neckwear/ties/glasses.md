@@ -2,6 +2,7 @@
 layout: neckwear
 category: neckwear
 title: Glasses Bowtie
+folder: ties
 type: ties
 style: Business Casual
 fabric: Cotton blend

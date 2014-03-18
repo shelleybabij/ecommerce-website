@@ -2,6 +2,7 @@
 layout: neckwear
 category: neckwear
 title: Circle Scarf
+folder: scarves
 type: scarves
 style: Formal
 fabric: Wool
