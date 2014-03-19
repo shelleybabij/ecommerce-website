@@ -6,7 +6,7 @@ folder: ties
 type: ties
 style: Formal
 fabric: Silk
-image: ties.jpg
+image: /ties.jpg
 ---
 
 This *formal bowtie collection* will guarantee you're dressed in style no matter the occaision.

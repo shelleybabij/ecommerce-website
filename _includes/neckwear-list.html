@@ -1,13 +1,14 @@
-<ul>
-	{% for neckwear in site.pages %}
-		{% if neckwear.type == include.type %}
-		<li>
-		<a href="{{site.baseurl}}{{neckwear.url}}">
-		<img src="{{site.baseurl}}/images/neckwear/{{neckwear.image}}" alt"Photo of{{neckwear.title}}">
-			{{neckwear.title}}
-		</a>
-		</li>
-		{% endif %}
-	{% endfor %}
-</ul>
+
+<img src="{{site.baseurl}}/images/neckwear/{{neckwear.image}}" alt"Photo of{{neckwear.title}}">
+	<div class="unit unit-s-1 unit-m-1 unit-l-1-3"
+		{% for neckwear in site.pages %}
+			{% if neckwear.type == include.type %}
+			<a href="{{site.baseurl}}{{neckwear.url}}">
+			<img class="img-flex" src="{{site.baseurl}}/images/neckwear/{{neckwear.image}}" alt"Photo of{{neckwear.title}}">
+				{{neckwear.title}}
+			</a>
+			{% endif %}
+		{% endfor %}
+	</div>
+</div>
 
