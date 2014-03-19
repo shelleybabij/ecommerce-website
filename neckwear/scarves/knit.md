@@ -19,4 +19,3 @@ This scarf is knit by [hand](http://en.wikipedia.org/wiki/Knit)
 - Hypoallergenic 
 
 
-

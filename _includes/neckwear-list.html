@@ -1,6 +1,5 @@
-
-<img src="{{site.baseurl}}/images/neckwear/{{neckwear.image}}" alt"Photo of{{neckwear.title}}">
-	<div class="unit unit-s-1 unit-m-1 unit-l-1-3"
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
 		{% for neckwear in site.pages %}
 			{% if neckwear.type == include.type %}
 			<a href="{{site.baseurl}}{{neckwear.url}}">
