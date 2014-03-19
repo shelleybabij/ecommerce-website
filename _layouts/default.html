@@ -37,14 +37,14 @@
 		<div class="unit unit-s-1 unit-m-1 unit-l-1">
 			<nav>
 				<ul>
-					<li class="mega"><a class= "{% if page.url contains 'neckwear' %}current{% endif %}fancy-link ease-all" href="{{site.baseurl}}/neckwear/">Neckwear</a></li>
-					<li class="mega"><a class= "{% if page.url == '/' %}current{% endif %}fancy-link ease-all" href="{{site.baseurl}}/">Home</a></li> 
-					<li class="mega"><a class= "{% if page.url == '/about/' %}current{% endif %}fancy-link ease-all" href="{{site.baseurl}}/about/">About</a></li>
+					<li class="mega"><a class= "{% if page.url contains 'neckwear' %}current{% endif %} fancy-link ease-all" href="{{site.baseurl}}/neckwear/">Neckwear</a></li>
+					<li class="mega"><a class= "{% if page.url == '/' %}current{% endif %} fancy-link ease-all" href="{{site.baseurl}}/">Home</a></li> 
+					<li class="mega"><a class= "{% if page.url == '/about/' %}current{% endif %} fancy-link ease-all" href="{{site.baseurl}}/about/">About</a></li>
 				</ul>
 			</nav>
 		</div>
 		<div class="unit unit-s-1 unit-m-1 unit-l-1">
-			<form class="header-search">
+			<form method="get" action="{{site.baseurl}}/search/">class="header-search">
 				<span><input type="text" class="search rounded" placeholder="Search..."></span>
 				<a class="btn btn-alt btn-search" href="#">Search</a>
 			</form>

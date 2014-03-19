@@ -1,16 +1,8 @@
 ---
 layout: default
 ---
-<nav>
-	<ul>
-		<li>		
-		<a class= "{% if page.url == '/scarves/index.html' %}current{% endif %}fancy-link ease-all" href="{{site.baseurl}}/neckwear/scarves/index.html">Scarves</a>
-		</li>
-		<li>
-		<a class= "{% if page.url == '/ties/inedex.html' %}current{% endif %}fancy-link ease-all" href="{{site.baseurl}}/neckwear/ties/index.html">Ties</a>
-		</li>
-	</ul>
-</nav>
+
+{% include neckwear-nav.html %}
 
 <h1>{{page.title}}</h1>
 
