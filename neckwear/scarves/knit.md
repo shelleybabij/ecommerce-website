@@ -18,4 +18,5 @@ This scarf is knit by [hand](http://en.wikipedia.org/wiki/Knit)
 - Locally sheared wool
 - Hypoallergenic 
 
+<a class="btn btn-alt milli" href="{{site.baseurl}}/cart/">Checkout</a>
 

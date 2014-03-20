@@ -18,3 +18,4 @@ This gorgeous tie is made from antique [silk](http://en.wikipedia.org/wiki/Silk)
 - Smooth Texture
 - Stain resistant coating 
 
+<a class="btn btn-alt milli" href="{{site.baseurl}}/cart/">Checkout</a>

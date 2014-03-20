@@ -18,5 +18,6 @@ This scarf is [hand died](http://en.wikipedia.org/wiki/Custom_fabric_dyeing)
 - Worn look
 - Antique fabric
 
+<a class="btn btn-alt milli" href="{{site.baseurl}}/cart/">Checkout</a>
 
 

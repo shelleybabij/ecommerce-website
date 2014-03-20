@@ -18,4 +18,6 @@ This bowtie is made from antique [cotton blend](http://en.wikipedia.org/wiki/Wea
 - Green glasses
 - Ribbed texture
 
+<a class="btn btn-alt milli" href="{{site.baseurl}}/cart/">Checkout</a>
+
 

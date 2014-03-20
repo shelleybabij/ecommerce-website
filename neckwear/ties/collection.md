@@ -18,3 +18,4 @@ These classy bowties are made from antique [silk](http://en.wikipedia.org/wiki/S
 - Multitude of patterns and colours
 - Trendy 
 
+<a class="btn btn-alt milli" href="{{site.baseurl}}/cart/">Checkout</a>

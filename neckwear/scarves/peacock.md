@@ -18,6 +18,7 @@ This scarf is [hand died](http://en.wikipedia.org/wiki/Custom_fabric_dyeing)
 - Trendy pattern
 - Hypoallergecic fabric
 
+<a class="btn btn-alt milli" href="{{site.baseurl}}/cart/">Checkout</a>
 
 
 

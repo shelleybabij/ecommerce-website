@@ -109,8 +109,8 @@ header h1{
 .current,
 .current:link,
 .current:visited{
-	color: red;
-	border-bottom-color: red;
+	color: #282727;
+	border-bottom-color: #282727;
 }
 
 .banner {
