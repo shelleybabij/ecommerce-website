@@ -107,6 +107,19 @@ a:active {
 	border-bottom-color: #282727;
 }
 
+a:hover,
+a:active {
+	/*It is okay to remve the focus rectangle for mouse actions */
+	outline: none;	
+}
+
+a:focus, 
+input:focus,
+button:focus {
+	/* Focus must always have a rectangle for keyboard users */
+	outline: 3px solid #000;
+}
+
 mark{
 	background-color: #ECF4F4;
 }

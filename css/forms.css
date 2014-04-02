@@ -19,3 +19,8 @@ form{
 input[type=text]{
 	color:#bcbcbc;
 }
+
+.search-label {
+	position: absolute;
+	top: -10em;
+}

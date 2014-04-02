@@ -21,21 +21,21 @@
 <link href="{{.site.baseurl}}/css/grid.css"rel="stylesheet">
 <link href="{{.site.baseurl}}/css/header.css"rel="stylesheet">
 <link href="{{.site.baseurl}}/css/footer.css"rel="stylesheet">
-<link href="{{.site.baseurl}}/css/product.css"rel="stylesheet">
-<link href="{{.site.baseurl}}/css/product-list-item.css"rel="stylesheet">
+<link href="{{.site.baseurl}}/css/product-details.css"rel="stylesheet">
+<link href="{{.site.baseurl}}/css/product-list.css"rel="stylesheet">
 <link href="{{.site.baseurl}}/css/promos.css"rel="stylesheet">
 </head>
 <body>
-	<header class="grid">
+	<header class="grid" role="banner">
 		
 		<div class="unit unit-s-1 unit-m-1 unit-l-1">
-			<img class="logo" src="{{site.baseurl}}/images/tie-logo.svg" alt="logo placeholder">
+			<img class="logo" src="{{site.baseurl}}/images/tie-logo.svg" alt="tie logo">
 			
 			<h1> Vintage Neckwear Co. </h1>
 		</div>
 		
 		<div class="unit unit-s-1 unit-m-1 unit-l-1">
-			<nav>
+			<nav role="navigation">
 				<ul>
 					<li class="mega"><a class= "{% if page.url contains 'neckwear' %}current{% endif %} fancy-link ease-all" href="{{site.baseurl}}/neckwear/">Neckwear</a></li>
 					<li class="mega"><a class= "{% if page.url == '/' %}current{% endif %} fancy-link ease-all" href="{{site.baseurl}}/">Home</a></li> 
@@ -44,8 +44,9 @@
 			</nav>
 		</div>
 		<div class="unit unit-s-1 unit-m-1 unit-l-1">
-			<form method="get" action="{{site.baseurl}}/search/" class="header-search">
-				<span><input type="text" class="search rounded" placeholder="Search..."></span>
+			<form method="get" action="{{site.baseurl}}/search/" class="header-search" role="search">
+			<label for ="search" class="search-label">Search</label>
+				<span><input type="text" id="search" class="search rounded" placeholder="Search..."></span>
 				<a class="btn btn-alt btn-search" href="{{site.baseurl}}/search/">Search</a>
 			</form>
 		</div>
@@ -59,7 +60,7 @@
 
 {{content}}
 
-	<footer class="grid">
+	<footer class="grid" role="contentinfo">
 	<div class="unit unit-s-1 unit-m-1 unit-l-1">
 		<p class="milli"> Copywright © Vintage Neckwear Co. 2014 <a class= "fancy-link ease-all" href="#">Terms of Service</a></p> 
 	</div>

@@ -80,6 +80,11 @@ ul li{
 	float: left;
 }
 
+.search-label {
+	position: absolute;
+	top: -10em;
+}
+
 @media screen and (min-width: 36.125em) {
 
 nav,
