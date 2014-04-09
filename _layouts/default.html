@@ -11,34 +11,22 @@
 <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
-<link href="{{.site.baseurl}}/css/typography.css"rel="stylesheet">
-<link href="{{.site.baseurl}}/css/common.css"rel="stylesheet">
-<link href="{{.site.baseurl}}/css/list-group.css"rel="stylesheet">
-<link href="{{.site.baseurl}}/css/media-object.css"rel="stylesheet">
-<link href="{{.site.baseurl}}/css/embed.css"rel="stylesheet">
-<link href="{{.site.baseurl}}/css/icons.css"rel="stylesheet">
-<link href="{{.site.baseurl}}/css/buttons.css"rel="stylesheet">
-<link href="{{.site.baseurl}}/css/grid.css"rel="stylesheet">
-<link href="{{.site.baseurl}}/css/header.css"rel="stylesheet">
-<link href="{{.site.baseurl}}/css/footer.css"rel="stylesheet">
-<link href="{{.site.baseurl}}/css/product-details.css"rel="stylesheet">
-<link href="{{.site.baseurl}}/css/product-list.css"rel="stylesheet">
-<link href="{{.site.baseurl}}/css/promos.css"rel="stylesheet">
+<link href="{{.site.baseurl}}/css/main.css"rel="stylesheet">
 </head>
 <body>
 	<header class="grid" role="banner">
-		
+
 		<div class="unit unit-s-1 unit-m-1 unit-l-1">
 			<img class="logo" src="{{site.baseurl}}/images/tie-logo.svg" alt="tie logo">
-			
+
 			<h1> Vintage Neckwear Co. </h1>
 		</div>
-		
+
 		<div class="unit unit-s-1 unit-m-1 unit-l-1">
 			<nav role="navigation">
 				<ul>
 					<li class="mega"><a class= "{% if page.url contains 'neckwear' %}current{% endif %} fancy-link ease-all" href="{{site.baseurl}}/neckwear/">Neckwear</a></li>
-					<li class="mega"><a class= "{% if page.url == '/' %}current{% endif %} fancy-link ease-all" href="{{site.baseurl}}/">Home</a></li> 
+					<li class="mega"><a class= "{% if page.url == '/' %}current{% endif %} fancy-link ease-all" href="{{site.baseurl}}/">Home</a></li>
 					<li class="mega"><a class= "{% if page.url == '/about/' %}current{% endif %} fancy-link ease-all" href="{{site.baseurl}}/about/">About</a></li>
 				</ul>
 			</nav>
@@ -51,7 +39,7 @@
 			</form>
 		</div>
 	</header>
-	
+
 {% if page.showbanner %}
 <div class="banner">
 	<h2>{{page.bannertext}}</h2>
@@ -62,9 +50,9 @@
 
 	<footer class="grid" role="contentinfo">
 	<div class="unit unit-s-1 unit-m-1 unit-l-1">
-		<p class="milli"> Copywright © Vintage Neckwear Co. 2014 <a class= "fancy-link ease-all" href="#">Terms of Service</a></p> 
+		<p class="milli"> Copywright © Vintage Neckwear Co. 2014 <a class= "fancy-link ease-all" href="#">Terms of Service</a></p>
 	</div>
-	
+
 	<div class="unit unit-s-1 unit-m-1 unit-l-1">
 		<ul class= "social">
 					<li>
@@ -80,7 +68,7 @@
 							<span class="hide-text">Twitter</span>
 						</a>
 					</li>
-				</ul>	
+				</ul>
 					<ul class= "social">
 					<li>
 						<a class="ease-all" href="#">
