@@ -14,7 +14,7 @@ header {
 	width: 100%;
 	top: 0;
 	z-index: 100;
-	border-radius: 8px;
+	border-radius: 3px;
 	padding-left: .25rem;
 }
 
@@ -29,7 +29,6 @@ header {
 
 header h1{
 		display: inline-block;
-		vertical-align: top;
 }
 
 .fancy-link,
@@ -50,14 +49,14 @@ header h1{
 nav {
 	width: 100%;
 	font-family: arvo, serif;
-	margin: 0 auto;
+	margin-bottom: 0;
 }
 
 nav li,
 nav a,
 nav a:link,
 nav a:visited{
-	padding: .5rem;
+	padding: .25rem;
 }
 
 ul {
@@ -72,7 +71,7 @@ ul li:before {
 
 ul li{
 	font-family: "Arvo" serif;
-   	position: relative;
+	position: relative;
 	list-style-type: none;
 }
 
@@ -93,11 +92,10 @@ nav a,
 nav a:link,
 nav a:visited {
 	display: inline;
-
 }
 
 header h1{
-	margin-top: 3.25rem;
+	margin-top:1.5rem;
 }
 
 }
@@ -105,7 +103,6 @@ header h1{
 @media screen and (min-width: 78.5em) {
 
 .header-search {
-	margin-top: 0rem;
 	float: right;
 	margin-right: .5rem;
 }
@@ -121,12 +118,13 @@ header h1{
 .banner {
 	background: #ECF4F4 url("../images/banner-1.jpg") no-repeat center center;
 	background-size: cover;
-	padding: 5em 1em 1em;
+	padding: 22em 2em 2em;
 	text-align: center;
 }
 
 .banner h2 {
-	color: #fff;
+	color: #282727;
+	margin-bottom: 0rem;
 }
 
 
