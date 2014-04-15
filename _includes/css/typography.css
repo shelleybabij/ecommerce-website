@@ -2,14 +2,15 @@
   Colour Palette
   - Dark grey: #6a6d6d - rgb (106,109,109,1.00)
   - Light grey: #979c9b - rgb (151,156,155,1.00)
-  - Grey-black: #282727 - rgb (40,39,39,1.00) 
+  - Grey-black: #282727 - rgb (40,39,39,1.00)
   - Transparent Teal: #ECF4F4 - rgb(236,244,244)
   - Light Teal: #C1DCE0 - rgb (193, 220, 224)
   - Dark Teal: #66BAC2 - rgb 102,186,194)
  */
 
 html {
-	font: normal 100%/1.5 "open sans", sans-serif; 
+	font: normal 100%/1.5 "open sans", sans-serif;
+  background-color:#fff ;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -89,7 +90,7 @@ h1, h2, h3, h4, h5, h6, .brand {
 
 a,
 a:link {
-	color: #979c9b;	
+	color: #979c9b;
 	text-decoration: none;
 	border-bottom: 0.1em solid rgba(151,156,155,1.00);
 	transition: all 200ms linear;
@@ -109,11 +110,11 @@ a:active {
 
 a:hover,
 a:active {
-	/*It is okay to remve the focus rectangle for mouse actions */
-	outline: none;	
+	/*It is okay to remove the focus rectangle for mouse actions */
+	outline: none;
 }
 
-a:focus, 
+a:focus,
 input:focus,
 button:focus {
 	/* Focus must always have a rectangle for keyboard users */
@@ -140,20 +141,20 @@ ul li:before {
 }
 
 ol {
-    counter-reset:li; 
-    margin-left:0; 
-    padding-left:0; 
+    counter-reset:li;
+    margin-left:0;
+    padding-left:0;
 }
 
 ol li {
-    position:relative; 
-    margin:0 0 6px 2em; 
-    list-style:none; 
+    position:relative;
+    margin:0 0 6px 2em;
+    list-style:none;
 }
 
 ol li:before {
-    content:counter(li); 
-    counter-increment:li; 
+    content:counter(li);
+    counter-increment:li;
     position:absolute;
     font-size: 1.4238rem;
 	 top:-10px;
@@ -187,8 +188,8 @@ table {
 
 th, td {
   width: 25%;
-  text-align: left; 
-  vertical-align: top; 
+  text-align: left;
+  vertical-align: top;
   border: 1px solid #E9E6E6;
   border-collapse: collapse;
   padding: 0.3em;
@@ -205,7 +206,7 @@ caption {
 th {
   background: #E9E6E6;
 }
-	
+
 .gutter {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -221,4 +222,4 @@ th {
   padding-right: 3.0000rem;
 }
 ​
-	
+

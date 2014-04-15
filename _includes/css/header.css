@@ -15,7 +15,7 @@ header {
 	top: 0;
 	z-index: 100;
 	border-radius: 8px;
-	padding-left: .25rem;	
+	padding-left: .25rem;
 }
 
 .logo {
@@ -72,7 +72,7 @@ ul li:before {
 
 ul li{
 	font-family: "Arvo" serif;
-   	position: relative;  
+   	position: relative;
 	list-style-type: none;
 }
 
@@ -93,7 +93,7 @@ nav a,
 nav a:link,
 nav a:visited {
 	display: inline;
-	
+
 }
 
 header h1{
@@ -103,7 +103,7 @@ header h1{
 }
 
 @media screen and (min-width: 78.5em) {
-	
+
 .header-search {
 	margin-top: 0rem;
 	float: right;
@@ -140,7 +140,7 @@ header h1{
 
 
 
-	
+
 
 
 

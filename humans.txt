@@ -1,6 +1,9 @@
 # humanstxt.org
 
 # TEAM
+Shelley Babij Graphic Design Student
+Teacher: Thomas Bradley
+Algonquin College
 
 
 
@@ -9,10 +12,15 @@
 # THANKS
 
 Public domain images from copyrightexpired.com
-Spinosaurus icon by Dactrtr; http://thenounproject.com/term/spinosaurus/24614/
+
 
 ---
 
 # TECHNOLOGY
+
+Sublime Text
+Adobe Photoshop
+Adobe Illustrator
+Github
 
 

@@ -1,6 +1,6 @@
 # inclass-ecommerce
 
-A demonstration repo for in class ecommerce website design system.
+A demonstration repository for in class ecommerce website design system.
 
 ---
 

@@ -1,14 +1,19 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.img-border{
+	border-radius: 1px;
+	border: 8px solid #fff;
+}
+
 .promo-small{
-	background-color: #C1DCE0;
-	border-radius: 10px;
-	padding: 1rem;
+	border-radius: 6px;
 }
 
 .promo-large{
-	background-color: #C1DCE0;
-	border-radius: 10px;
-	padding: 1rem;
+	background-color: #fff;
+	padding: 0.5rem;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
