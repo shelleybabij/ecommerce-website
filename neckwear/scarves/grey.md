@@ -1,24 +1,23 @@
 ---
 layout: neckwear
 category: neckwear
-title: Peacock Scarf 
+title: Grey Tie-dye
 folder: scarves
 type: scarves
-style: Formal
+style: Casual
 fabric: Cotton
-image: scarf-2.jpg
+image: scarf-5.jpg
 ---
 
-This is an amazing *Peacock Patterned Scarf* 
+*Tie-dye* is all the rage this season.
 
 This scarf is [hand died](http://en.wikipedia.org/wiki/Custom_fabric_dyeing)
 
 ## Features
 
-- Trendy pattern
-- Hypoallergecic fabric
+- Worn look
+- Antique fabric
 
 <a class="btn btn-alt milli" href="{{site.baseurl}}/cart/">Checkout</a>
-
 
 

@@ -1,8 +1,19 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.product-picture {
+.product-picture,
+.product-picture:link,
+.product-picture:visited {
 	display: block;
+	border: 0;
 }
 
+.product-title {
+	border-bottom: 1px solid #979c9b;;
+}
 
+.product-picture:hover .product-title,
+.product-picture:focus .product-title,
+.product-picture:active .product-title {
+	border-bottom-color: #66BAC2;
+}

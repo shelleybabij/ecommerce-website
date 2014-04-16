@@ -2,8 +2,9 @@
 /* CSS Document */
 
 .img-border{
-	border-radius: 1px;
-	border: 8px solid #fff;
+	border-radius: 3px;
+	border: 8px solid #C1DCE0;
+	margin-bottom: .5rem;
 }
 
 .promo-small{
@@ -13,7 +14,13 @@
 .promo-large{
 	background-color: #fff;
 	padding: 0.5rem;
-	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
 }
+
+.h2-spacing {
+	line-height: 1.6875;
+	margin-bottom: 0;
+}
+

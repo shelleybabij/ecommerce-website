@@ -1,23 +1,24 @@
 ---
 layout: neckwear
 category: neckwear
-title: Stripes 
+title: Paisley
 folder: scarves
 type: scarves
-style: Casual
+style: Formal
 fabric: Cotton
-image: scarf-5.jpg
+image: scarf-2.jpg
 ---
 
-*Stripes* are all the rage this season.
+This is an amazing *Paisley Patterned Scarf*
 
 This scarf is [hand died](http://en.wikipedia.org/wiki/Custom_fabric_dyeing)
 
 ## Features
 
-- Worn look
-- Antique fabric
+- Trendy pattern
+- Hypoallergecic fabric
 
 <a class="btn btn-alt milli" href="{{site.baseurl}}/cart/">Checkout</a>
+
 
 

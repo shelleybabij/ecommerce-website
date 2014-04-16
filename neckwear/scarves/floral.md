@@ -1,7 +1,7 @@
 ---
 layout: neckwear
 category: neckwear
-title: Teal Scarf
+title: Floral Print
 folder: scarves
 type: scarves
 style: Casual
@@ -9,7 +9,7 @@ fabric: Cotton
 image: scarf-4.jpg
 ---
 
-This *Teal Scarf* is a great punch of colour.
+This *Floral Print Scarf* is a great punch of colour.
 
 This scarf is [hand died](http://en.wikipedia.org/wiki/Custom_fabric_dyeing)
 
