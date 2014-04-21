@@ -1,0 +1,7 @@
+
+Sitemap: http://shelleybabij.github.io/ecommerce-website/sitemap.xml
+
+User-agent: *
+
+
+
