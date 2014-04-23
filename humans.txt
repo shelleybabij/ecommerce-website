@@ -5,13 +5,14 @@ Shelley Babij 2nd Year Graphic Design Student
 Teacher: Thomas Bradley
 Algonquin College
 
-
+All photography and logo design by Shelley Babij. Copyright Shelley Babij 2014
 
 ---
 
 # THANKS
 
 Prof Thomas J.Bradley
+Kelly Russell for being my photography assistant.
 
 
 ---
@@ -22,5 +23,6 @@ Sublime Text
 Adobe Photoshop
 Adobe Illustrator
 Github
+
 
 
