@@ -24,11 +24,12 @@ header {
 	margin-bottom: 0;
 	display: inline-block;
 	overflow: auto;
-	vertical-align: top;
+	vertical-align: middle;
 }
 
 header h1{
 		display: inline-block;
+		vertical-align:middle;
 }
 
 .fancy-link,
@@ -50,7 +51,6 @@ nav {
 	width: 100%;
 	font-family: arvo, serif;
 	margin-bottom: 0;
-	display: inline;
 }
 
 nav li,
@@ -100,11 +100,7 @@ ul li{
 
 @media screen and (min-width: 36.125em) {
 
-nav,
-nav li,
-nav a,
-nav a:link,
-nav a:visited {
+nav {
 	display: inline;
 }
 
@@ -134,11 +130,6 @@ header h1{
 	padding: 22em 2em 2em;
 	text-align: center;
 	margin-bottom: 2rem;
-}
-
-.banner h2 {
-	color: #282727;
-	margin-bottom: 5rem;
 }
 
 }
