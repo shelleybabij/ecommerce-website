@@ -84,6 +84,14 @@ ul li{
 	top: -10em;
 }
 
+.banner {
+	background: #ECF4F4 url("../images/banner-1.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 5em 1em 1em;
+}
+
+}
+
 @media screen and (min-width: 36.125em) {
 
 nav,
@@ -106,7 +114,7 @@ header h1{
 	float: right;
 	margin-right: .5rem;
 }
-}
+
 
 .current,
 .current:link,
@@ -128,6 +136,7 @@ header h1{
 	margin-bottom: 5rem;
 }
 
+}
 
 
 
