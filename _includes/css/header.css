@@ -4,8 +4,8 @@
 .ease-all{
 		-webkit-transition: all 350ms ease-in-out;
 		-moz-transition: all 350ms ease-in-out;
-       -ms-transition: all 350ms ease-in-out;
-       -o-transition: all 350ms ease-in-out;
+    -ms-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
 		transition: all 350ms ease-in-out;
 }
 
@@ -50,6 +50,7 @@ nav {
 	width: 100%;
 	font-family: arvo, serif;
 	margin-bottom: 0;
+	display: inline;
 }
 
 nav li,
@@ -90,6 +91,11 @@ ul li{
 	padding: 5em 1em 1em;
 }
 
+.banner h2 {
+	color: #282727;
+	margin-bottom: 5rem;
+}
+
 }
 
 @media screen and (min-width: 36.125em) {
@@ -114,7 +120,6 @@ header h1{
 	float: right;
 	margin-right: .5rem;
 }
-
 
 .current,
 .current:link,
