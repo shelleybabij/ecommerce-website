@@ -97,11 +97,9 @@ ul li{
 	color: #282727;
 }
 
-}
-
 @media screen and (min-width: 36.125em) {
 
-nav {
+nav li {
 	display: inline-block;
 }
 
